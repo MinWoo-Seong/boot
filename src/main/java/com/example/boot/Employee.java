@@ -18,7 +18,7 @@ public class Employee {
     private Integer salary;
     private Date joinDate;
     @ManyToOne
-    @JoinColumn(name = "dept_Id")
+    @JoinColumn(name = "dept_id")
     private Dept dept;
 
     @Builder
